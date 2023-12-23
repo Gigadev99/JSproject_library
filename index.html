@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Library</h1>
+        <button>
+            <h1>+ Add book</h1>
+        </button>
+        <dialog>
+            <form action="">
+                <label for="">Title</label><br><input type="text" id="title"><br>
+                <label for="">Author</label><br><input type="text" id="author"><br>
+                <label for="">Pages</label><br><input type="number" id="pages"><br>
+                <label for="">Is the book read yet?</label><input type="checkbox" id="isread"><br>
+                <button>Add book</button>
+            </form>
+        </dialog>
+    </header>
+    <div class="headings">
+        <h2 class="title">Title</h2>
+        <h2 class="author">Author</h2>
+        <h2 class="pages">Pages</h2>
+        <h2 class="isread">Read Status</h2>
+    </div>
+    <div class="row">
+        <div class="title"></div>
+        <div class="author"></div>
+        <div class="pages"></div>
+        <label class="isread" for="0">Read</label><input type="checkbox">
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

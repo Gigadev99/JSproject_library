@@ -1,0 +1,80 @@
+* {
+  font-family:verdana;
+  color:white;
+  
+}
+body {
+  display:flex;
+  flex-direction: column;
+  margin:0;
+  background:#6E260E;
+}
+header {
+  display:flex;
+  justify-content:space-between;
+  background:black;
+  color:white;
+  padding:0 30px;
+  box-shadow:0px 1px 6px lightgray
+  
+}
+.headings {
+  border-bottom:black solid 2px
+}
+.row {
+  padding:10px 0
+}
+header > button {
+  background:none;
+  border:none;
+  color:white
+}
+body > div {
+  display:flex;
+  justify-content:center;
+  gap:20px
+}
+.title, .author, .pages, .isread{
+  flex-basis:20%;
+  flex-shrink:1;
+  
+}
+.isread {
+  max-width:90px
+}
+input[type="checkbox"] {
+  margin-left:10px
+}
+.close {
+  position:absolute;
+  top:14px;
+  right:10px;
+
+  background-color:white;
+  border:none
+}
+dialog {
+  border:none;
+  border-radius:20px;
+  padding:30px 20px;
+}
+.remove {
+  position:absolute;
+  right:10px;
+  width:20px;
+  min-height:20px;
+  max-height:20px;
+  background:red;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:black;
+  padding-bottom:1px;
+  border-width:3px;
+  padding-right:6px;
+  font-size:20px;
+  font-weight:600
+}
+dialog * {
+  color:black
+}
